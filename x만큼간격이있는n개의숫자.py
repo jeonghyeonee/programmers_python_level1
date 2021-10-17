@@ -1,6 +1,7 @@
 def solution(x, n):
     answer = []
+    s = 0
     for i in range(n):
-        answer.append(x)
-        x += x
+        s += x
+        answer.append(s)
     return answer
