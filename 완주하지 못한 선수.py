@@ -1,3 +1,7 @@
 def solution(participant, completion):
-    answer = ''
+    for i in completion:
+        if i in participant:
+            participant.remove(i)
+    for i in participant:
+        answer = i
     return answer
