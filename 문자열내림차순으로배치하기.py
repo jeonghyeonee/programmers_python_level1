@@ -1,3 +1,4 @@
-idef solution(n):
-    answer = sorted(n, reverse=True);def solution(n);def solution(n):
-    answer = 0
+def solution(s):
+    s = sorted(s, reverse=True)
+    answer = ''.join(s)
+    return answer
