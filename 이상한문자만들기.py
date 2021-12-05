@@ -7,7 +7,7 @@ def solution(s):
                 answer += n[i][j].upper()
             else:
                 answer += n[i][j].lower()
-        if i == len(n):
+        if i == len(n)-1:
             break
         answer += ' '
     return answer
