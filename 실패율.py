@@ -3,6 +3,7 @@
 # 실패율이 높은 스테이지부터 내림차순으로 스테이지 번호 정렬 return
 # dictionary 쓰면 풀 수 있을 것 같은데...
 
+# 좀 더 고민좀...
 def solution(N, stages):
     answer = []
     return answer
