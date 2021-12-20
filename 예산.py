@@ -1,3 +1,5 @@
+# 뭐가 문제인거지??
+
 def solution(d, budget):
     answer = 0
     for i in d:
