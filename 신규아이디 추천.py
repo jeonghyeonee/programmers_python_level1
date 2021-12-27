@@ -1,5 +1,5 @@
-# 문제를 차근차근 이해해보자 
-
+ # 어떻게 풀어야하지...
+ 
 def solution(new_id):
     l = len(new_id)
     answer = ''
